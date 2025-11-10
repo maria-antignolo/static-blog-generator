@@ -17,11 +17,7 @@ Modular Python system for managing a static blog with automatic post generation,
 
 ## 🎨 About Templates and Design
 
-This repository was created as a practical exercise associated with a blog post, demonstrating the automation capabilities of a static blog generator. **The HTML templates, CSS styles, and JavaScript included are basic examples for demonstration purposes only.**
-
-I encourage you to create your own unique designs and templates! This system provides you with a robust, practical, and useful automation framework that handles all the technical heavy lifting—post generation, index updates, navigation links, tag lists, and more—all with simple commands. The creative part is entirely yours: design your templates, style them however you like, and make your blog truly reflect your vision.
-
-Think of this as a powerful engine for your blog—reliable, fast, and efficient—while you focus on what matters: content and design. Any improvements, modifications, or customizations to the templates are entirely up to you. Build something amazing! 🚀
+This system was created as a practical exercise for a blog post, focusing on the automation engine rather than design. You'll need to create your own HTML templates, CSS, and any JavaScript you want to use. The real value here is the robust automation—post generation, index updates, navigation, and tag management—all handled with simple commands. Think of this as the engine; you bring the templates and style to make the blog truly yours! 🚀
 
 ## 🗃️ System Architecture
 
