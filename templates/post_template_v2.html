@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{excerpt}">
+    <meta name="author" content="{author}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{excerpt}">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{excerpt}">
+    <title>{title} | {author}</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/post-v2.css">
+</head>
+<body>
+    <!-- Accessibility Controls -->
+    <div class="accessibility-controls">
+        <button id="decreaseFontBtn" class="control-btn" title="Decrease font size" aria-label="Decrease font size">A-</button>
+        <button id="increaseFontBtn" class="control-btn" title="Increase font size" aria-label="Increase font size">A+</button>
+        <button id="darkModeBtn" class="control-btn" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+    </div>
+
+    <div class="container">
+        <a href="../{index_file}" class="back-link">← Back to Blog</a>
+        
+        <article class="blog-post">
+            <header class="post-header">
+                <h1 class="post-title">{title}</h1>
+                <div class="post-meta">
+                    <span>{read_time} min read</span>
+                </div>
+            </header>
+
+            {featured_image_html}
+
+            <div class="post-content">
+{content}
+            </div>
+
+            <div class="share-section">
+                <button id="shareLinkedInBtn" class="share-btn">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                    </svg>
+                    Share on LinkedIn
+                </button>
+            </div>
+
+            <div class="tags">
+{tags_html}
+            </div>
+
+            {navigation_html}
+
+            <div class="author-box">
+                <h4>About the Author</h4>
+                <p>{author}<br/> {author_bio}</p>
+            </div>
+        </article>
+    </div>
+
+    <script src="../js/post.js"></script>
+</body>
+</html>

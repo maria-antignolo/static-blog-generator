@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{tag_name} | {blog_name} | {author}</title>
+    <meta name="description" content="Posts about {tag_name} - {blog_description}">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index-v2.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <button id="darkModeToggle" class="toggle-btn" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+    </div>
+
+    <div class="container">
+        <header class="blog-header">
+            <h1><a href="../index.html">{blog_name}</a></h1>
+            <p>{blog_description}</p>
+            <div class="header-links">
+                <a href="{index_file}" class="back-link">← Back to Blog</a>
+                <a href="{portfolio_url}" class="portfolio-link">View Portfolio</a>
+            </div>
+        </header>
+
+        <section class="tag-section">
+            <h2 class="section-title">Posts tagged: <span class="tag-highlight">{tag_name}</span></h2>
+            
+            <div class="posts-grid {grid_class}">
+{posts_cards}
+            </div>
+        </section>
+
+        <section class="tag-cloud-section">
+            <h3>Explore by Tag</h3>
+            <div class="tag-cloud">
+                {tag_cloud_html}
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h3>About the Author</h3>
+            <p>{author_bio}</p>
+        </section>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
