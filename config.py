@@ -36,11 +36,11 @@ INDEX_HTML_FILE = "index.html"
 # ============================================================================
 # INFORMACIÓN DEL BLOG Y AUTOR
 # ============================================================================
-BLOG_NAME = "BIT FORWARD"
-AUTHOR_NAME = "María Antiñolo"
-AUTHOR_BIO = "🎯 Technical Product Owner | Project Manager | Cross-industry strategist combining technical depth, user-centered design expertise, and business acumen | AI-enhanced product development 🚀"
-BLOG_DESCRIPTION = "Digital product strategy, technical lessons, strategic challenges"
-PORTFOLIO_URL = "https://bit-oriented.com"
+BLOG_NAME = "BLOG"
+AUTHOR_NAME = "Author Name"
+AUTHOR_BIO = "🎯 Bio 🚀"
+BLOG_DESCRIPTION = "Blog Description"
+PORTFOLIO_URL = "http://hello-world.com"
 
 
 # ============================================================================
@@ -60,8 +60,8 @@ ALLOW_MISSING_IMAGES = True  # True = continúa sin bloquear, False = detiene
 # NOMBRES DE PLANTILLAS HTML
 # ============================================================================
 
-POST_TEMPLATE_FILE = "post_template_V2.html"
-INDEX_TEMPLATE_FILE = "index_template_V2.html"
+POST_TEMPLATE_FILE = "post_template.html"
+INDEX_TEMPLATE_FILE = "index_template.html"
 TAG_INDEX_TEMPLATE_FILE = "tag_index_template.html"
 
 
